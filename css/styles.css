@@ -1,0 +1,255 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+/******************************* class attributes *****************************/
+::selection {
+  color: #ff4c68;
+  background: black;
+}
+
+/*************************************************************** big headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.big-heading-2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #000;
+}
+
+.big-heading-2-1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.big-heading-3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/******************************************************************** sections*/
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/************************************************************* Navigation bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+  text-align: left;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.navbar-nav {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+/********************************************************************** title */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+
+  position: relative;
+  text-align: left;
+}
+
+/**************************************************************** Title image */
+
+.doggie {
+  transform: rotate(25deg);
+  position: absolute;
+  max-width: 60%;
+  left: 5rem;
+}
+
+.dimg {
+  position: relative;
+}
+
+/******************************************************************* features */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.col-f {
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*********************************************************** Download buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.download-button:active {
+  box-shadow: 2px 2px 5px #000;
+}
+
+/*************************************************************** testimonials */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+#testimonials .container-fluid {
+  padding: 0;
+}
+
+.testimonial-image {
+  width: 10rem;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/********************************************************************** press */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/******************************************************************** pricing */
+
+ #pricing {
+   padding: 100px;
+ }
+
+ .pricing-column {
+   padding: 3% 2%;
+ }
+
+ .button-price:active {
+   box-shadow: 2px 2px 5px #000;
+ }
+
+ /************************************************************ call to action */
+
+.button {
+  margin: 5% 2.5% 3% 0;
+  font-size: 1.5rem;
+}
+
+.button:active {
+  box-shadow: 2px 2px 5px #000;
+}
+
+/********************************************************************* footer */
+
+.contact-icons {
+  margin: 0 15% 2.5%;
+  font-size: 1.5rem;
+}
+
+.iconf {
+  margin-right: 2.5%;
+  color: #ef8172;
+}
+
+.iconf:hover {
+  color: #ff4c68;
+}
+
+.footer-p {
+  margin-right: 1.9%;
+}
+
+/*************************************************************** media config */
+
+@media (max-width: 1035px) {
+
+ .download-button {
+   margin: 0;
+ }
+
+}
+
+@media (max-width: 991px) {
+
+  .download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+  .doggie {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 1500px) {
+
+  .doggie {
+    height: 38.5rem;
+  }
+
+}

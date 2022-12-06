@@ -144,10 +144,6 @@ p {
 
 /*************************************************************** testimonials */
 
-#testimonials {
-  background-color: #ef8172;
-}
-
 #testimonials .container-fluid {
   padding: 0;
 }
@@ -165,7 +161,6 @@ p {
 /********************************************************************** press */
 
 #press {
-  background-color: #ef8172;
   padding-bottom: 3%;
 }
 

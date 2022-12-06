@@ -253,3 +253,15 @@ p {
   }
 
 }
+
+@media (min-width: 992px) and (max-width: 1093px) {
+
+  .col3 {
+    width: 100%;
+  }
+
+  .col-md-6 {
+    width: 50%;
+  }
+
+}

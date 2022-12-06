@@ -26,7 +26,7 @@ p {
 }
 
 .big-heading-2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   line-height: 1.5;
   font-weight: 900;
   color: #000;
@@ -250,18 +250,6 @@ p {
 
   .doggie {
     height: 38.5rem;
-  }
-
-}
-
-@media (min-width: 992px) and (max-width: 1093px) {
-
-  .col3 {
-    width: 100%;
-  }
-
-  .col-md-6 {
-    width: 50%;
   }
 
 }
